@@ -13,13 +13,13 @@ int loadfile(char words[][NUM_COLS]);
 int main(){
 	int size,guess; 
 	char words[NUM_ROWS][NUM_COLS]; 
-	char input[NUM_ROWS][NUM_COLS]; 
+	char input; 
 	
 	size = loadfile(words); 
 	guess == 5;
 do{	printf("GUESS %d! Enter your guess: ", guess);
 	scanf("%c", &input);
-	if (input[][NUM_COLS]!=input[][5]){
+	if (input){
 	printf("Your gress must be 5 letters long.\n");
 	printf("Please try again: ");
 	}
